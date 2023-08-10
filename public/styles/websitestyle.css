@@ -1,0 +1,734 @@
+body{
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 25px;
+  line-height: 2;
+  text-align: center;
+  position: relative;
+}
+/* title */
+#title{
+  text-align: left;
+}
+.go-global{
+  height: 70px;
+  width: 350px;
+}
+h1{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: bold;
+}
+.nav-item{
+  font-family: 'Merriweather', sans-serif;
+
+}
+.nav-item{
+  padding: 0 10px;
+  height: 50%;
+}
+.dropdown-menu{
+  margin-bottom: 15px;
+}
+/* home page intro */
+hr{
+  line-height: normal;
+}
+#intro{
+  font-family: 'Merriweather';
+  background-color: #00BFFF;
+  color: white;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+#intro h2{
+  font-size: 30px;
+  margin-top: 45px;
+}
+#intro h3{
+  font-size: 25px;
+  margin-top: 45px;
+}
+#intro .intro{
+  height: 550px;
+}
+#intro .btn-lg{
+  margin-top: 15px;
+}
+#intro .consultation a{
+  text-decoration: none;
+  color: white;
+}
+#intro a{
+  text-decoration: none;
+  color: white;
+}
+.Outsourcing-Image{
+  height: 60%;
+  width: 70%;
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+.padding{
+  padding-top: 35px;
+}
+.horizontal-line{
+  margin-top: 2.5px;
+  background-color: black;
+  height: 3px;
+}
+/* home page features and testimonials*/
+#features{
+  font-family: 'Montserrat';
+  background-color: #F5F5F5;
+  font-weight: bold;
+  padding-top: 45px;
+  padding-bottom: 15px;
+  color: black;
+}
+#features h3{
+  font-family: 'Merriweather';
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+#features p{
+  margin-top: 25px;
+}
+#features .fa-4x{
+  color: #2F4F4F;
+}
+#testimonials p{
+  font-family: 'Merriweather';
+  font-weight: bold;
+  font-size: 32.5px;
+  line-height: 1.5;
+  color: black;
+}
+#testimonials h4{
+  font-family: 'Montserrat';
+  font-size: 22.5px;
+  line-height: 1.5;
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+#testimonials{
+  background-color: #F5F5F5;
+}
+/* home page after testimonials */
+#quote1{
+  background-color: #F5F5F5;
+}
+.quote2{
+  font-family: 'Merriweather';
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+  color: black;
+}
+span .fa-solid{
+  color: green;
+}
+.outsourcing{
+  height: 60%;
+  width: 85%;
+}
+.products{
+  width: 40%;
+}
+.fa-star{
+  color: yellow;
+}
+/* home page contact form */
+#contact{
+  background-color: #778899;
+  color: white;
+}
+#contact .first{
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+#contact h3{
+  font-size: 45px;
+  margin-top: 15px;
+}
+#contact h6{
+  font-size: 25px;
+  padding-top: 30px;
+}
+/* about us intro */
+#about-home {
+  font-family: "Merriweather";
+  background-color: #2F4F4F;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+#aboutGreenestep-home{
+  font-family: "Merriweather";
+  background-color: #3CB371;
+  color: white;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+.intro{
+  margin-top: 40px;
+}
+#about-home .about1{
+  height: 500px;
+}
+#about-home .first{
+  color: white;
+}
+#about-home h4 {
+  padding-top: 50px;
+}
+.mobile{
+  height: 99%;
+  width: 70%;
+}
+.customers{
+  height: 80%;
+  width: 80%;
+}
+#about-page{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+#about-page h3{
+  font-family: 'Merriweather';
+  font-size: 35px;
+}
+#about-page p{
+  font-size: 18px;
+}
+#about-page p a{
+  text-decoration: underline;
+  color: black;
+}
+#list-item-1 {
+  font-weight: bold;
+}
+#list-item-2{
+  font-weight: bold;
+  margin-top: 20px;
+}
+#list-item-3{
+  font-weight: bold;
+}
+#list-item-4{
+  font-weight: bold;
+}
+#list-item-5 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.first1{
+  margin-top: 75px;
+  font-size: 1.2rem;
+}
+.first1 h4{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.second2{
+  position: static;
+  background-color: #D3D3D3;
+}
+.list-group{
+  cursor: default;
+  margin-top: 130px;
+}
+.products{
+  width: 100%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-pic{
+  width: 20%;
+  border-radius: 100%;
+  padding-right: 10px;
+}
+em{
+  font-size: 1.2rem;
+}
+#about-page .contact {
+  margin-bottom: 15px;
+}
+#about-page a{
+  text-decoration: none;
+  color: white;
+}
+.about-affirms{
+  height: 70%;
+  width: 70%;
+}
+.Greenestep{
+  height: 90%;
+  width: 90%;
+}
+/* why page */
+#why-intro{
+  height: 500px;
+  font-family: "Merriweather";
+  background-color: #00BFFF;
+  color: white;
+  padding-top: 30px;
+}
+#why-intro h1{
+  margin-left: 70px;
+  font-size: 50px;
+}
+.Why-Image{
+  padding-top: 5px;
+  height: 300px;
+  width: 475px;
+}
+#why-page{
+  background-color: #F5F5F5;
+}
+#why-page .mobile{
+  height: 80%;
+  width: 80%;
+}
+#why-page h2{
+  font-family: 'Merriweather';
+  font-size: 45px;
+  font-weight: bold;
+}
+#why-page h3{
+  font-family: 'Merriweather';
+  font-size: 35px;
+}
+#why-page p{
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+#why-page a{
+  color: white;
+  text-decoration: none;
+}
+/* Products and Services */
+#product-intro{
+  font-family: "Merriweather";
+  background-color: #2F4F4F;
+  color: white;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#product-intro h1{
+  margin-left: 30px;
+  font-size: 75px;
+}
+#product-intro .product1{
+  height: 500px;
+}
+#product-intro .product2{
+  height: 525px;
+}
+.Product-Image{
+  height: 350px;
+  width: 400px;
+}
+.business-suite{
+  height: 99%;
+  width: 99%;
+}
+#product-page{
+  font-family: 'Montserrat';
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+}
+#product-page .consultation a{
+  color: white;
+  text-decoration: none;
+}
+#product-page h2{
+  font-family: 'Merriweather';
+  font-weight: bold;
+  font-size: 40px;
+}
+#product-page h3{
+  font-family: 'Montserrat';
+  font-size: 30px;
+}
+#product-page h4{
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin-top: 10px;
+}
+#product-page h6{
+  font-size: 20px;
+}
+#product-page span{
+  margin-top: 15px;
+}
+#product-page li{
+  font-size: 25px;
+}
+#product-page .first-column{
+  color: black;
+}
+#product-page h5{
+  font-size: 22.5px;
+}
+#product-page .services-package h3{
+  font-size: 30px;
+}
+#product-page .processes h5{
+  font-family: 'Merriweather'
+}
+#product-page .processes span{
+  font-family: 'Roboto';
+}
+.horizontal-line1{
+  background-color: black;
+  height: 3px;
+}
+.vertical-line{
+  width: 75%;
+  margin-bottom: 150px;
+  margin-left: 130px;
+  background-color: black;
+  height: 3px;
+  transform: rotate(90deg);
+}
+.software{
+  height:45%;
+  width: 60%;
+}
+.service{
+  height: 45%;
+  width: 60%;
+}
+.accounting{
+  width: 99%;
+}
+.tax{
+  height: 65%;
+  width: 90%;
+}
+.inventory{
+  width: 99%;
+}
+.hr{
+  height: 75%;
+  width: 99%;
+}
+#product-page span{
+  font-size: 25px;
+}
+#product-page .first{
+  padding-top: 15px;
+}
+#product-page .second{
+  padding-top: 15px;
+}
+#product-page .third{
+  padding-top: 15px;
+}
+.cloud{
+  height:60%;
+  width: 75%;
+}
+/* separate product pages */
+#product-page .inventory li{
+  font-size: 18px;
+  list-style: initial;
+  list-style-position: inside;
+}
+.dollar{
+  color: #118C4F;
+}
+.people{
+  color: #808080;
+}
+.clipboard{
+  color: orange;
+}
+.gear{
+  color: purple;
+}
+.globe{
+  color: blue;
+}
+#product-page .regulatory{
+  width: 50%;
+  height: 50%;
+}
+#product-page .indirect{
+  width: 50%;
+  height: 50%;
+}
+#product-page .direct{
+  width: 50%;
+  height: 50%;
+}
+#product-page .property{
+  height: 50%;
+  width: 50%;
+}
+#product-page .payroll{
+  height: 50%;
+  width: 50%;
+}
+#product-page .telecom{
+  height: 50%;
+  width: 50%;
+}
+#product-page .tax-automation{
+  height: 50%;
+  width: 50%;
+}
+#product-page .tax-list li{
+  list-style: initial;
+  list-style-position: inside;
+  font-size: 20px;
+}
+#product-page .tax-list1 h6{
+  font-size: 20px;
+}
+.storage{
+  width: 70%;
+  height: 40%;
+}
+.flexibility{
+  height: 40%;
+  width: 90%;
+}
+.automatic{
+  height: 35%;
+  width: 40%;
+}
+.automated{
+  height: 50%;
+  width: 90%;
+}
+.fax{
+  height: 50%;
+  width: 70%;
+}
+.streamline{
+  height: 40%;
+  width: 60%;
+}
+#product-page .recruiting-title{
+  font-family: 'Merriweather';
+}
+.recruit-pic{
+  height: 50%;
+  width: 50%;
+}
+.hr-pic{
+  height: 50%;
+  width: 50%;
+}
+.payroll-pic{
+  height: 50%;
+  width: 50%;
+}
+.hands{
+  color: #32CD32;
+}
+.teams{
+  color: #87CEFA;
+}
+.headset{
+  color: #778899;
+}
+/* How it works */
+#how-intro{
+  height: 500px;
+  font-family: "Merriweather";
+  background-color: #00BFFF;
+  color: white;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+#how-intro h1{
+  padding-bottom: 5px;
+  font-size: 45px;
+}
+.How-Image{
+  height: 350px;
+  width: 400px;
+  padding-bottom: 100px;
+
+}
+#how-page {
+  font-family: 'Montserrat';
+  background-color: #F5F5F5;
+  text-align: center;
+}
+#how-page h2{
+  font-size: 40px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+#how-page h4{
+  font-size: 30px;
+  font-family: 'Merriweather';
+  font-weight: bold;
+}
+#how-page h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 35px;
+}
+#how-page p{
+  font-size: 20px;
+}
+#how-page h5{
+  font-size: 25px;
+}
+#how-page h6{
+  font-size: 22px;
+  margin-top: 5px;
+}
+#how-page li{
+  font-size: 18px;
+}
+#how-page .mobile{
+  height: 75%;
+  width: 75%;
+}
+.bullet-list li{
+  list-style: initial;
+  list-style-position: inside;
+}
+ul{
+  margin-top: 15px;
+  list-style: none;
+}
+.fa-square-check{
+  margin-right: 5px;
+  color: green;
+}
+.consult{
+  width: 99%;
+  height: 80%;
+}
+.recruit{
+  width: 99%;
+  height: 90%;
+}
+.operation{
+  width: 99%;
+  height: 80%;
+}
+#how-page a{
+  color: white;
+}
+/* Contact Us */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  width: 300px;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+#contact-form{
+  background-color: #2F4F4F;
+  color: white;
+}
+/* footer */
+#footer{
+  font-family: 'Roboto';
+  background-color: white;
+  text-align: center;
+}
+.quicks-link{
+  width: 100%;
+}
+.section-links{
+  padding-top: 25px;
+  width: 100%;
+}
+.section-links ul{
+  list-style: none;
+}
+.section2{
+  padding-left: 15px;
+}
+.section3{
+  padding-left: 15px;
+}
+#footer a{
+  line-height: 2.25;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #008000;
+}
+a .linkedln{
+  color: #0e76a8;
+}
+a .vimeo{
+  color: #87CEFA;
+}
+a .youtube{
+  color: red;
+}
+a .email{
+  color: #D3D3D3;
+}
+a .linkedln:hover{
+  color: #0e76a8;
+}
+a .vimeo:hover{
+  color: #87CEFA;
+}
+a .youtube:hover{
+  color: red;
+}
+a .email:hover{
+  color: #D3D3D3;
+}
+.dotted-line-black{
+  border-bottom: 1px dotted #000;
+}
+/* submit Message */
+#submit-message{
+  font-family: "Merriweather";
+  background-color: #00BFFF;
+  text-align: center;
+  color: white;
+  height: 250px;
+}
